@@ -9,3 +9,5 @@ server.get('/', (req, res) => {
 server.listen(5000, () => {
     console.log('servidor está funcionando...')
 })
+
+module.exports = server
